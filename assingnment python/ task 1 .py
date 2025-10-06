@@ -11,7 +11,7 @@ and check your total calories consumed throughout the day.
 """
 
 # Welcome message
-print("🍎 Welcome to Daily Calorie Tracker! 🍎")
+print(" Welcome to Daily Calorie Tracker! ")
 print("Track your meals, log calories, and stay on top of your fitness goals.")
-print("Let's get started!\n")
+print("Let's get started!")
 
