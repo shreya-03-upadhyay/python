@@ -11,9 +11,9 @@
 # """
 
 # # Welcome message
-# print("🍎 Welcome to Daily Calorie Tracker! 🍎")
+# print(" Welcome to Daily Calorie Tracker! ")
 # print("Track your meals, log calories, and stay on top of your fitness goals.")
-# print("Let's get started!\n")
+# print("Let's get started!")
 
 # Lists to store meal data
 meals = []
@@ -24,16 +24,16 @@ num_meals = int(input("How many meals do you want to log today? "))
 
 # Collect meal names & calories
 for i in range(num_meals):
-    meal_name = input(f"\nEnter name of meal #{i+1}: ")
-    calorie_amount = float(input(f"Enter calories for {meal_name}: "))
+    meal_name = input("Enter name of meal #{i+1}: ")
+    calorie_amount = float(input("Enter calories for {meal_name}: "))
     
     # Store in lists
     meals.append(meal_name)
     calories.append(calorie_amount)
 
 # Display summary
-print("\n--- Daily Meal Log ---")
+print("--- Daily Meal Log ---")
 for i in range(num_meals):
-    print(f"{meals[i]}: {calories[i]} calories")
+    print("{meals[i]}: {calories[i]} calories")
 
-print("\n✅ Data collected successfully!")
+print(" Data collected successfully!")
